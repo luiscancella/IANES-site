@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+<head>
+    <meta charset="UTF-8">
+    <title>EAD</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="atendimento.css"/>
+    <script src="login.js"></script>
+    <script>
+            function confirmar(){
+            document.getElementById("confirmacao").innerHTML = "Feedback enviado!"
+        }
+    </script>
+</head>
+<body>
+    <header>
+
+        <a href="home.html"><img src="img/logo.png" alt="logo" id="logo" /></a>
+
+        <nav id="navbarra"></nav>
+
+        <div id="divbusca">
+            <input type="text" id="txtbusca" placeholder="  Pesquisar" autocomplete="off"/>
+            <img src="img/lupa.png" id="btnbusca" alt="buscar" />
+        </div>
+
+        <section id="register"></section>
+    </header>
+
+    <main>
+        <section>
+            <div id="titulo">Feedback/Contato</div>
+            <div id="confirmacao"></div>
+            <div id="divformulario">
+                <form id="formulario">
+                    <input type="text" id="assunto" size="30" placeholder="Quer falar sobre">
+                    <input type="text" id="nome" size="30" placeholder="Nome">
+                    <input type="mail" id="email" size = "30" placeholder="Email">
+                    <div id="box">
+                        <label id="feed">Mensagem:</label>
+                        <textarea id="textarea"></textarea>
+                    </div>
+                </form>
+                <input type="button" value="ENVIAR" onclick="confirmar()" id="botao">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="left">
+            <div> © 2022 &nbsp; IANES Tech </div>
+            <div> <a href="" style="text-decoration: none"> Termos de uso </a> </div>
+            <div> <a href="" style="text-decoration: none"> Política de privacidade </a> </div>
+        </section>
+        <section id="right">
+            <div> <a href="https://www.instagram.com/accounts/login/"> <img src="img/insta.png" alt="instagram"> </a></div>
+            <div> <a href="https://twitter.com/i/flow/login"> <img href="" src="img/twitter.png" alt="twitter"> </a></div>
+            <div> <a href="https://pt-br.facebook.com/"> <img href="" src="img/facebook.png" alt="facebook"> </a></div>
+        </section>
+    </footer>
+
+</body>
+</html>

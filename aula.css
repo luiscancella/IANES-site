@@ -1,0 +1,305 @@
+body {
+    background: linear-gradient(45deg, #002B5B, #2B4865, #387d94);
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+main {
+    height: 90vh;
+    display: flex;
+}
+
+main #seila {
+    padding-left: 16.4vh;
+    margin-top: -4.3vh;
+    font-size: 1.2vh;
+    font-family: "Noto Sans";
+    font-weight: bolder;
+}
+
+main aside {
+    width: 18%;
+    height: 94%;
+    margin-top: 1vh;
+    border-right: rgb(1, 247, 255) solid 0.3vh;
+
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: -2%;
+    width: 18%;
+    background: linear-gradient(45deg, transparent, #2B4865, #256D85);
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+}
+
+main aside #play {
+    width: 4vh;
+    height: 4vh;
+    margin-top: 0.3vh;
+}
+
+main aside button {
+    padding-left: 3vw;
+    width: 24%;
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 1.1vw;
+    text-align: center;
+    margin: auto;
+    height: 6.7vh;
+    margin-top: 3.4vh;
+    margin-left: 15vh;
+    cursor: pointer;
+    color: #387d94;
+}
+
+
+main aside button:hover {
+    width: 35%;
+}
+
+main aside div img {
+    height: 80%;
+    margin: auto;
+}
+
+main section {
+    width: 81%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#video {
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+.video #bloco {
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 15%;
+    width: 50%;
+    height: 70%;
+    background: linear-gradient(45deg, transparent, #2B4865, #256D85);
+    background-size: 200% 200%;
+}
+
+
+#texto {
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    color: rgb(255, 255, 255);
+    font-style: "Noto Sans";
+    font-size: 1.7vh;
+}
+
+#butoes {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    /* margin-top: 2vh; */
+    margin-bottom: 3.5vh;
+    cursor: pointer;
+}
+
+#next {
+    border: #000 0.3vh solid;
+    border-radius: 3vw;
+    width: 4.5vw;
+    height: 1.8vw;
+    margin: auto;
+    margin-right: 10vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 1.5vh;
+}
+
+#back {
+    border: #000 0.3vh solid;
+    border-radius: 3vw;
+    width: 4.5vw;
+    height: 1.8vw;
+    margin: auto;
+    margin-right: 99vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 1.5vh;
+}
+
+#layout {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 25%;
+    width: 50%;
+    height: 45%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -37vh;
+}
+
+#textob {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 12%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -12.5vh;
+}
+
+#textoc {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 12%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -9vh;
+}
+
+#textod {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 20%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -19vh;
+}
+
+#textoe {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 20%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -17vh;
+}
+
+#textof {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 12%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -11vh;
+}
+
+#textog {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 10%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -9vh;
+}
+
+#textoh {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 17%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -16.6vh;
+}
+
+#textoi {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 17%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -15vh;
+}
+
+#textoj {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 11%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -11vh;
+}
+
+#textok {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 11%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -12vh;
+}
+
+#textol {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 17%;
+    width: 65.8%;
+    height: 11%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -10vh;
+}

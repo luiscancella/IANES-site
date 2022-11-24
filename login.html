@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EAD</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    <script src="login.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Pacifico');
+    </style>
+
+    <header>
+
+        <a href="home.html"><img src="img/logo.png" alt="logo" id="logo" /></a>
+
+        <nav id="navbarra">
+
+        </nav>
+
+        <div id="divbusca">
+            <input type="text" id="txtbusca" placeholder="  Pesquisar" autocomplete="off" />
+            <img src="img/lupa.png" id="btnbusca" alt="buscar" />
+        </div>
+
+        <section id="register"></section>
+
+    </header>
+
+    <main id="login">
+        <section id="cadastro">
+            <div class="left formulario"> <img src="img/logoead.png" id="logo">
+                <br>
+                <h1>Saiba mais sobre a nossa plataforma</h1>
+                <br>
+                <p>
+                    A IANES Tech oferece exercícios, vídeos educativos e um painel de aprendizado
+                    personalizado que habilita os alunos a estudarem no seu próprio ritmo, em qualquer lugar.
+                    Abordamos aulas de Desenvolvimento Web como Phyton, JavaScript, C++ e muito mais,
+                    com um ensino didático e aprendizado leve. Nosso foco é o domínio de habilidades para ajudar os
+                    alunos a
+                    estabelecerem bases sólidas, de maneira a não limitar seu aprendizado subsequente!
+                </p>
+                <br />
+                <a href="comofunciona.html" id="funciona">Como funciona</a>
+            </div>
+            <div class="right formulario">
+                <form name="login" method="get">
+                    <br />
+                    <label> <i class="fa-solid fa-envelope"></i> Entre com login e senha</label>
+                    <label align="left"> Email: * </label>
+                    <input type="email" id="emaillogin" name="emaillogin" size="30" placeholder="Digite seu email"
+                        required>
+                    <label align="left"> Senha: * </label>
+                    <input type="password" id="senhalogin" name="senhalogin" size="30" placeholder="Digite sua senha"
+                        required>
+                    <div id="errorlogin" class="error"></div>
+                    <br/>
+                    <input id="enter" type="button" value="Entrar" onclick="logar()">
+                    <br/>
+                </form>
+                <divisao>Ou</divisao>
+
+                <form name="registrar" id="registrar">
+                    <br />
+                    <label>Cadastre-se</label>
+                    <label align="left"> Nome: * </label>
+                    <input type="text" id="nomeregister" name="emailregister" size="30" placeholder=" Digite seu nome"
+                        required>
+                    <label align="left"> CPF: *</label>
+                    <input type="text" id="cpfregister" name="cpfregister" size="30"
+                        placeholder=" Digite seu CPF" required>
+                    <label align="left"> E-mail: * </label>
+                    <input type="email" id="emailregister" name="emailregister" size="30"
+                        placeholder=" Digite seu email" required>
+                    <label align="left"> Senha: * </label>
+                    <input type="password" id="senharegister" name="senharegister" size="30"
+                        placeholder=" Digite sua senha" required>
+                    <label align="left"> Repetir Senha: * </label>
+                    <input type="password" id="confsenharegister" name="confsenharegister" size="30"
+                        placeholder=" Digite novamente sua senha" required>
+                    <i class="fa-solid fa-hexagon-exclamation"> </i>
+                    <div id="erroregister" class="error"></div>
+                    <br>
+                    <input id="cad" type="button" value=" Cadastrar" onclick="register()">
+                </form>
+                <br />
+            </div>
+        </section>
+        <section id="avaliacao">
+
+            <div>
+                <div><img src="img/avatarM.png" alt="foto da pessoa" /></div>
+                <p>
+                    Gostei bastante do curso, os professores tem uma ótima didática
+                    ensino de qualidade, plataforma de fácil acesso e muito prática
+                    gostei bastante do curso não vejo a hora de poder fazer mais cursos
+                    de vocês, estou indicando para todos que conheço!
+                </p>
+            </div>
+
+            <div>
+                <div><img src="img/avatarM2.png" alt="foto da pessoa" /></div>
+                <p>
+                    Plataforma de ensino excelente, com ótimos
+                    profissionais e sempre priorizando a acessibilidade
+                    e aprendizado, aprendi muito com o curso de vocês,
+                    estou a espera de mais conteúdos. Super recomendo!
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <section id="left">
+            <div> © 2022 &nbsp; IANES Tech </div>
+            <div> <a> Termos de uso </a> </div>
+            <div> <a> Política de privacidade </a> </div>
+        </section>
+        <section id="right">
+            <div> <a href="https://www.instagram.com/accounts/login/"> <img src="img/insta.png" alt="instagram"> </a>
+            </div>
+            <div> <a href="https://twitter.com/i/flow/login"> <img href="" src="img/twitter.png" alt="twitter"> </a>
+            </div>
+            <div> <a href="https://pt-br.facebook.com/"> <img href="" src="img/facebook.png" alt="facebook"> </a></div>
+        </section>
+    </footer>
+</body>
+
+</html>

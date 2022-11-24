@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(45deg, #002B5B, #2B4865, #387d94);
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+main {
+    height: 90vh;
+    display: flex;
+}
+
+
+#video {
+    text-align: center;
+    margin-top: 25%;
+    width: 25%;
+    height: 35%;
+    margin-left: 74%;
+
+
+}
+
+
+#layout {
+    padding-left: -1vw;
+    padding-bottom: 1.5vw;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .7);
+    border-radius: 1.5vh;
+    margin-left: 60%;
+    width: 125%;
+    height: 70%;
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+    margin-top: -39vh;
+}

@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(45deg, #100F0F, #0F3D3E, #395B64);
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+main #bloco p{
+    margin-top: 12vh;
+    height: -50vh;
+    width: 65%;
+    padding-right: 1vh;
+    margin-left: 3vh;
+    font-family: "Noto Sans";
+    color: white;
+    font-size: 2vh;
+}
+
+main div {
+    border: #f0f 1px solid;
+}
+
+#bloco {
+    background-color: #256D85;
+    width: 500%;
+    height: 64%;
+    margin-top: -33vh;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#bloco h1 {
+    margin-top: 5vh;
+    /* background-color: #fff; */
+    /* border: 1px solid black; */
+    font-family: "Noto Sans";
+    color: aqua;
+    padding-right: -1vh;
+}
+
+#bloco h3 {
+    /* background-color: #fff; */
+    /* border: 1px solid black; */
+    font-family: "Noto Sans";
+    color: white;
+    padding-right: -2vh;
+}

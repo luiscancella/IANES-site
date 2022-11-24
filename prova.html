@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+<head>
+    <meta charset="UTF-8">
+    <title>EAD</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="prova.css"/>
+    <script src="login.js"></script>
+    <script src="prova.js"></script>
+</head>
+<body>
+    <header>
+
+        <a href="home.html"><img src="img/logo.png" alt="logo" id="logo" /></a>
+
+        <nav id="navbarra"></nav>
+
+        <div id="divbusca">
+            <input type="text" id="txtbusca" placeholder="  Pesquisar" autocomplete="off"/>
+            <img src="img/lupa.png" id="btnbusca" alt="buscar" />
+        </div>
+
+        <section id="register"></section>
+    </header>
+
+    <main>
+        <section id="prova">
+            <form>
+                <!-- 1 -->
+                <div class="questao"> 
+                    <p>
+                        1. Analise o seguinte trecho de código Python:
+                        <br><br>
+                        a, b = 0, 1 while a <= 14:          
+                        if (a % 2) == 1:                 
+                        print(a)          
+                        a, b = b, a+b
+                        <br><br>
+                        A sequência correta de valores impressos pelo código acima é:
+                        
+                    </p>
+                    <br><br>
+                    <div class="respostas">
+                        A)<input type="radio" id="q1" name="q1" value="false"/> 0, 1, 4, 8, 12.
+                        <br>
+                        B)<input type="radio" id="q1" name="q1" value="false"/> 1, 1, 3, 5, 13.
+                        <br>
+                        C)<input type="radio" id="q1" name="q1" value="true"/> 1, 1, 2, 4, 14.
+                        <br>
+                        D)<input type="radio" id="q1" name="q1" value="false"/> 0, 1, 3, 9, 13.
+                        <br>
+                        E)<input type="radio" id="q1" name="q1" value="false"/>1, 3, 5, 9, 14.
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="questao">
+                    <p>
+                        2. Analise o seguinte código Python, escrito por um cientista de dados, e assinale a alternativa correta.
+                        <br>
+                        nome = input("Qual o seu nome?")
+                        <br>
+                        print(nome)
+                        <br><br>
+                    </p>
+                    <div class="respostas">
+                        A)<input type="radio" name="q2" value="false"/> O código não irá funcionar pois está faltando ‘;’ ao final de cada linha.
+                        <br>
+                        B)<input type="radio" name="q2" value="false"/> O uso da função input está incorreto, pois ela tem que ser chamada em uma nova linha.
+                        <br>
+                        C)<input type="radio" id="q2" name="q2" value="true"/> O resultado do comando print é apresentar na tela o nome informado pelo usuário.
+                        <br>
+                        D)<input type="radio" name="q2" value="false"/> Falta a estrutura correta de criação de uma classe para a execução do comando.
+                        <br>
+                        E)<input type="radio" name="q2" value="false"/> Falta definir o tipo da variável nome, por isso o programa não irá executar.
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="questao">
+                    <p>
+                        3. Qual será o resultado da seguinte expressão Python?
+                        <br><br>
+                        print(4.00/(2.0+2.0))
+                        <br>
+                        Assinale a alternativa correta:
+                        <br><br>
+                    </p>
+                    <div class="respostas">
+                        A)<input type="radio" name="q3" value="false"/>ERRO
+                        <br>
+                        B)<input type="radio" id="q3" name="q3" value="true"/> 1.0
+                        <br>
+                        C)<input type="radio" name="q3" value="false"/> 1.00
+                        <br>
+                        D)<input type="radio" name="q3" value="false"/> 1
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="questao">
+                    <p>
+                        4. Considerando que em um programa Python em condições ideais há um array criado pelo comando nomes =
+                        ["Maria", "Pedro", "João"], para exibir os valores contidos nesse array utiliza-se
+                    </p>
+                    <br><br>
+                    <div class="respostas">
+                        A)<input type="radio" name="q4" value="false"/> for x in nomes: out.print(x)
+                        <br>
+                        B)<input type="radio" name="q4" value="false"/> while x in nomes: print(x)
+                        <br>
+                        C)<input type="radio" name="q4" value="false"/> foreach x in nomes: print(x)
+                        <br>
+                        D)<input type="radio" name="q4" value="false"/> foreach x in nomes: system.println(x)
+                        <br>
+                        E)<input type="radio" id="q4" name="q4" value="true"/> for x in nomes: print(x)
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="questao">
+                    <p>
+                        5. Dos itens abaixo, aquele que é uma linguagem de programação:
+                    </p>
+                    <br><br>
+                    <div class="respostas">
+                        A)<input type="radio" name="q5" value="false"/> Firefox
+                        <br>
+                        B)<input type="radio" name="q5" value="false"/> Explorer
+                        <br>
+                        C)<input type="radio" name="q5" value="false"/> Chrome
+                        <br>
+                        D)<input type="radio" id="q5" name="q5" value="true"/> Python
+                        <br>
+                        E)<input type="radio" name="q5" value="false"/> Safari
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="questao">
+                    <p>
+                        6. Julgue o item quanto à programação orientada a objetos e à linguagem de programação Python.
+                        <br>
+                        "Um recurso bastante útil da Python consiste no tratamento posicional das strings. Elas são <br>
+                        consideradas como sequências mutáveis e podem ter sua ordem (sequência) alterada da esquerda 
+                        para a direita ou vice-versa, dependendo da função do programa."
+                        <br><br>
+                    </p>
+                    <div class="respostas">
+                        A)<input type="radio" name="q6" value="false"/> Verdadeiro
+                        <br>
+                        B)<input type="radio" name="q6" value="true"/> Falso
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="questao">
+                    <p>
+                        7. Leia as afirmativas a seguir:
+                        <br>
+                        <br>
+                        I. Com o PHP, é possível enviar e receber cookies, por exemplo.
+                        <br>
+                        II. O Python é uma linguagem multiplataforma que serve para desenvolver aplicações para celulares, desktop e web, por exemplo.
+                        <br>
+                        <br>
+                        Marque a alternativa CORRETA:
+                        <br><br>
+                    </p>
+                    <div class="respostas">
+                        A)<input type="radio" id="q7" name="q7" value="true"/> As duas afirmativas são verdadeiras.
+                        <br>
+                        B)<input type="radio" name="q7" value="false"/> A afirmativa I é verdadeira, e a II é falsa.
+                        <br>
+                        C)<input type="radio" name="q7" value="false"/> A afirmativa II é verdadeira, e a I é falsa.
+                        <br>
+                        D)<input type="radio" name="q7" value="false"/> As duas afirmativas são falsas.
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="questao">
+                    <p>
+                        8. Sobre a linguagem Python, é INCORRETO afirmar que:
+                    </p>
+                    <br><br>
+                    <div class="respostas">
+                        A)<input type="radio" name="q8" value="false"/> Suporta os paradigmas: imperativo, orientado a objetos e funcional.
+                        <br>
+                        B)<input type="radio" name="q8" value="false"/> Utiliza indentação para delimitar início e fim de blocos.
+                        <br>
+                        C)<input type="radio" id="q8" name="q8" value="true"/> A linguagem Python é distribuída sob licença que proíbe sua incorporação em produtos proprietários.
+                        <br>
+                        D)<input type="radio" name="q8" value="false"/> Python é uma linguagem de tipagem dinâmica e forte.
+                        <br>
+                        E)<input type="radio" name="q8" value="false"/> Python é um software de código aberto.
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div class="questao">
+                    <p>
+                        9. Ao analisar um conjunto de dados com Python, um programador resolveu usar um dataframe Pandas de nome dp para guardá-los. <br>
+                        Em um certo momento, ele resolveu que precisaria usar, apenas, quatro colunas de dados do dataframe: “pais“, “ano“, “renda 
+                        per capita“ e “expectativa de vida“.
+                        <br>
+                        Que fragmento de código Python 3 deve ser usado para selecionar, apenas, essas quatro colunas do dataframe dp?
+                        <br><br>
+                    </p>
+                    <div class="respostas">
+                        A)<input type="radio" name="q9" value="false"/> dp[“pais“,“ano“,“expectativa de vida“,“renda per capita“]
+                        <br>
+                        B)<input type="radio" id="q9" name="q9" value="true"/> dp[[“pais“,“ano“,“expectativa de vida“,“renda per capita“]]
+                        <br>
+                        C)<input type="radio" name="q9" value="false"/> dp(“pais“,“ano“,“expectativa de vida“,“renda per capita“) 
+                        <br>
+                        D)<input type="radio" name="q9" value="false"/> dp([“pais“,“ano“,“expectativa de vida“,“renda per capita“])
+                        <br>
+                        E)<input type="radio" name="q9" value="false"/> dp[dp[“pais“,“ano“,“expectativa de vida“,“renda per capita“]] 
+                    </div>
+                </div>
+
+                <!-- 10 -->
+                <div class="questao">
+                    <p>
+                        10. Analise o código Python a seguir.
+                        <br>
+                        <br>
+                        x = [1,2,3,4,5]
+                        <br>
+                        print(x[-1])
+                        <br>
+                        <br>
+                        Assinale a opção que indica a saída produzida pela execução desse código.
+                    </p>
+                    <br><br>
+                    <div class="respostas">
+                        A)<input type="radio" name="q10" value="false"/> [1,2,3,4,5]
+                        <br>
+                        B)<input type="radio" name="q10" value="false"/> 1
+                        <br>
+                        C)<input type="radio" name="q10" value="false"/> [5,1]
+                        <br>
+                        D)<input type="radio" id="q10" name="q10" value="true"/> 5
+                        <br>
+                        E)<input type="radio" name="q10" value="false"/> [5,4,3,2,1] 
+                    </div>
+                </div>
+
+                <!-- 11 -->
+                <div class="questao">
+                    <p>
+                        11. Analise o código Python a seguir.
+                        <br>
+                        <br>
+                        x = [1,2,3,4,5]
+                        <br>
+                        print(x[::-1])
+                        <br>
+                        <br>
+                        Assinale a opção que indica a saída produzida pela execução desse código. 
+                    </p>
+                    <br><br>
+                    <div class="respostas">
+                        A)<input type="radio" name="q11" value="false"/> [1,2,3,4,5]
+                        <br>
+                        B)<input type="radio" name="q11" value="false"/> 1
+                        <br>
+                        C)<input type="radio" name="q11" value="false"/> [5,1]
+                        <br>
+                        D)<input type="radio" name="q11" value="false"/> 5
+                        <br>
+                        E)<input type="radio" id="q11" name="q11" value="true"/> [5,4,3,2,1] 
+                    </div>
+                </div>
+
+                <!-- 12 -->
+                <div class="questao">
+                    <p>
+                        12. Leia as afirmativas a seguir:
+                        <br>
+                        <br>
+                        I. Python é uma linguagem de programação interpretada, de código-fonte aberto e disponível para vários sistemas operacionais.
+                        <br>
+                        II. Hardware é o nome que se dá a toda parte lógica do computador, também chamado de programa.
+                        <br>
+                        <br>
+                        Marque a alternativa CORRETA:
+                    </p>
+                    <div class="respostas">
+                        A)<input type="radio" name="q12" value="false"/> As duas afirmativas são verdadeiras.
+                        <br>
+                        B)<input type="radio" id="q12" name="q12" value="true"/> A afirmativa I é verdadeira, e a II é falsa
+                        <br>
+                        C)<input type="radio" name="q12" value="false"/> A afirmativa II é verdadeira, e a I é falsa.
+                        <br>
+                        D)<input type="radio" name="q12" value="false"/> As duas afirmativas são falsas.
+                    </div>
+                </div>
+
+                <!-- 13 -->
+                <div class="questao">
+                    <p>
+                        13. Na linguagem de programação Python, existem 3 estruturas para armazenar dados indexados.
+                        <br>
+                        A estrutura cujos valores são imutáveis depois de sua criação é conhecida como:
+                    </p>
+                    <br><br>
+                    <div class="respostas">
+                        A)<input type="radio" name="q13" value="false"/> lista
+                        <br>
+                        B)<input type="radio" name="q13" value="false"/> operador
+                        <br>
+                        C)<input type="radio" id="q13" name="q13" value="true"/> tupla
+                        <br>
+                        D)<input type="radio" name="q13" value="false"/> classe
+                        <br>
+                        E)<input type="radio" name="q13" value="false"/> dicionário 
+                    </div>
+                </div>
+
+                <!-- 14 -->
+                <div class="questao">
+                    <p>
+                        14. Qual comando do Python 3 que realiza para cada lista uma atribuição do elemento corrente à variável definida no comando e executa o bloco de código associado a essa variável disponível?
+                    </p>
+                    <br><br>
+                    <div class="respostas">
+                        A)<input type="radio" name="q14" value="false"/> if
+                        <br>
+                        B)<input type="radio" id="q14" name="q14" value="true"/> for
+                        <br>
+                        C)<input type="radio" name="q14" value="false"/> while
+                        <br>
+                        D)<input type="radio" name="q14" value="false"/> print
+                        <br>
+                        E)<input type="radio" name="q14" value="false"/> def
+                    </div>
+                </div>
+
+                <!-- 15 -->
+                <div class="questao">
+                    <p>
+                        15. Considere a instrução Python a seguir:
+                        <br>
+                        <br>
+                        x = [ print(i) for i in range(10) if i % 2 == 0 ]
+                        <br>
+                        <br>
+                        Após a execução dessa instrução no Python 3.7, a variável “x” conterá o valor:
+                    </p>
+                    <br><br>
+                    <div class="respostas">
+                        A)<input type="radio" name="q15" value="false"/> [1, 3, 5, 7, 9]
+                        <br>
+                        B)<input type="radio" name="q15" value="false"/>  None
+                        <br>
+                        C)<input type="radio" id="q15" name="q15" value="true"/> [None, None, None, None, None]
+                        <br>
+                        D)<input type="radio" name="q15" value="false"/> [0, 2, 4, 6, 8]
+                        <br>
+                        E)<input type="radio" name="q15" value="false"/> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                    </div>
+                </div>
+                <div id="verificar">
+                    <div id="result"></div>
+                    <div id="download"></div>
+                    <input type="button" onclick="avaliar()" value="ENVIAR">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section id="left">
+            <div> © 2022 &nbsp; IANES Tech </div>
+            <div> <a href="" style="text-decoration: none"> Termos de uso </a> </div>
+            <div> <a href="" style="text-decoration: none"> Política de privacidade </a> </div>
+        </section>
+        <section id="right">
+            <div> <a href="https://www.instagram.com/accounts/login/"> <img src="img/insta.png" alt="instagram"> </a></div>
+            <div> <a href="https://twitter.com/i/flow/login"> <img href="" src="img/twitter.png" alt="twitter"> </a></div>
+            <div> <a href="https://pt-br.facebook.com/"> <img href="" src="img/facebook.png" alt="facebook"> </a></div>
+        </section>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+body {
+    background: linear-gradient(45deg, #1C3879, #285ba7, #299da1);
+    background-size: 200% 200%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+main #cadastro {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: "Noto Sans";
+    font-size: 1.8vh;
+}
+
+main #funciona{
+    text-decoration: underline;
+}
+
+.right #cad{
+    width: 15vh;
+    margin-left: 17vh;
+    padding-top: -1.5vh;
+    size: 5vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+main section .formulario {
+    background-color:  rgba(0, 0, 0, 0.6);
+    width: 25vw;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    color: white;
+}
+
+
+main section div form {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1vh;
+}
+
+main section .left {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 1vh;
+    border-radius: 2vw;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 2.5vw
+}
+
+.left a{
+    color: #21E1E1;
+}
+
+main section #logo{
+    width: 15%;
+    height: 12.5%;
+    margin-top: -44%;
+    margin-left: 45%;
+    cursor: pointer;
+    animation: loading 9s ease infinite;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+main section .right {
+    background-color:  rgba(0, 0, 0, 0.5);
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    padding: 3vH;
+    border-radius: 2vw;
+}
+
+.right #enter{
+    width: 15vh;
+    margin-left: 17vh;
+    padding-top: -1.5vh;
+    size: 5vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+main #avaliacao {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10vh 0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background: rgba(256, 256, 256, 0.4);
+    color:beige;
+    gap: 9vh;
+    font-family: "Noto Sans";
+    font-size: 1.9vh;
+    font-style: bold;
+}
+
+main #avaliacao div {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+main #avaliacao img {
+    height: 20vh;
+}
+
+.right form input {
+    border-radius: 10vw;
+    height: 1.3vw;
+    padding-left: 0.4vw;
+    font-family: "Noto Sans";
+    text-decoration: none;
+    font-size: 1.6vh;
+}
+
+.error {
+    color: #f00;
+    height: 0.1vh;
+}

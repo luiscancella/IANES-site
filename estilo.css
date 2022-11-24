@@ -1,0 +1,133 @@
+* { /* CSS RESET */
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+header {
+    height: 8vh;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(90, 256, 256, 0.3);
+    box-shadow: 0 1% 70% rgba(0, 0, 0, 0.7);
+    animation: colors 15s ease infinite;
+}
+
+header #logo {
+    height: 4.2vh;
+    margin: 1.5vh auto 3vh 3vh;
+}
+
+header nav {
+    margin: auto;
+    padding: 0.8vh;
+    font-size: 2vh;
+    color: white;
+    margin-left: 6%;
+    font-family: "Noto Sans";
+    font-size: 1.7vh;  
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-radius: 5vh;
+  }
+
+header nav a:hover{
+
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: underline;
+}
+
+header #register {
+    margin: auto;
+    margin-right: 5vw;
+    padding: 0.8vh;
+    font-size: 2vh;
+    display: flex;
+    /* margin-top: 1.5%;
+    background-color: #E8F9FD;
+    border: solid 1px;
+    border-radius: 11px;
+    width: 9%;
+    height: 21%; */
+    font-family: "Noto Sans";
+    font-size: 1.7vh;
+}
+
+#divbusca {
+    margin-top: 1.2%;
+    background-color: #E8F9FD;
+    border: solid -1vw;
+    border-radius: 15vw;
+    width: 20%;
+    height: 37%;
+    border-color: aquamarine;
+}
+
+#txtbusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 1%;
+    font-style: italic;
+    font-size: 95%;
+    border: none;
+    height: 100%;
+    width: 71%;
+    border-radius: 11vh;
+}
+
+#btnbusca {
+    margin-top: 1%;
+    margin-left: 17%;
+    background-color: transparent;
+    padding-left: 1%;
+    border: none;
+    height: 78%;
+    width: 6%;
+}
+
+footer {
+    height: 12vh;
+    display: flex;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: "Noto Sans";
+    font-size: 1.7vh;
+}
+
+footer section {
+    display: flex;
+    gap: 4vw;
+}
+footer section a {
+    display: flex;
+    gap: 4vw;
+    color: white;
+}
+
+footer #left {
+    margin: auto;
+    margin-left: 8vw;
+}
+
+footer #right {
+    margin: auto;
+    margin-right: 4vw;
+    gap: 1.5vw;
+}
+
+footer img {
+    height: 7vh;
+}
